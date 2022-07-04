@@ -5,13 +5,13 @@ metadata:
   name: monitoring
   namespace: flux-system
 spec:
-  healthChecks:
-  - kind: Deployment
-    name: prometheus
-    namespace: flux-system
-  - kind: Deployment
-    name: grafana
-    namespace: flux-system
+#  healthChecks:
+#  - kind: Deployment
+#    name: prometheus
+#    namespace: flux-system
+#  - kind: Deployment
+#    name: grafana
+#    namespace: flux-system
   interval: 1h0m0s
   retryInterval: 1s
   path: ./manifests/monitoring
