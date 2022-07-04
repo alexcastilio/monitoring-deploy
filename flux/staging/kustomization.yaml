@@ -6,4 +6,4 @@ resources:
 #patchesStrategicMerge:
 #- files????
 
-namespace: monitoring
+#namespace: monitoring
