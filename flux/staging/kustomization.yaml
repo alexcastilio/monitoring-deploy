@@ -3,7 +3,7 @@ kind: Kustomization
 resources:
 - ../base
 
-patchesStrategicMerge:
-- files????
+#patchesStrategicMerge:
+#- files????
 
 namespace: monitoring
